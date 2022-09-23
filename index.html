@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/a4ddf8c5dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fontAwesome.css">
+    <!-- Link to bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>LePain</title>
+  </head>
+  <body>
+    <!-- Navbar component -->
+    <!-- The navbar-dark class is used on nav bars with a dark background so the text can be seen  -->
+    <!-- The sticky-top class is used to set the sticky position to an element (the nav element in this case) -->
+    <nav class="navbar bg-dark navbar-dark sticky-top">        
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <i class="fa-solid fa-bread-slice"></i> Le Pain
+            </a>
+
+
+        </div>
+
+
+    </nav>
+    <!-- Showcase -->
+    <!--  -->
+    <section id="showcase" class="d-flex flex-column justify-content-center align-items-center text-light m-0 p-5">
+        <h1 class="display-3">Le Pain</h1>
+        <p>When flour and water come together</p>
+        <a href="#gallery" class="btn btn-secondary">Voir Les Pains</a>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="bg-dark p-5">
+      <div class="container">
+        <!-- Bootstrap Grid -->
+        <div class="row">
+          <!-- Bread 1 -->
+          <!-- section.nb-4.col-lg-4 -->
+          <section class="nb-4 col-lg-4">
+            <!-- Card 1 -->
+            <div class="card">
+              <img src="Images/baguette.jpg" alt="Baguettes" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Baguette</h5>
+                <p class="card-text">A baguette is a long, thin loaf of French bread that is commonly made from basic lean dough. It is distinguishable by its length and crisp crust.</p>
+                <a href="https://en.wikipedia.org/wiki/Baguette" class="btn btn-outline-info btn-sm">Learn More</a>
+                <a href="#" class="btn btn-sm btn-outline-danger"><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </section>
+          <!-- Bread 2 -->
+          <!-- section.nb-4.col-lg-4 -->
+          <section class="nb-4 col-lg-4">
+            <!-- Card 2 -->
+            <div class="card">
+              <img src="Images/challah.jpg" alt="Challah" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Challah</h5>
+                <p class="card-text">Challah is a special bread in Jewish cuisine, usually braided and typically eaten on ceremonial occasions such as Shabbat and major Jewish holidays.</p>
+                <a href="https://en.wikipedia.org/wiki/Challah" class="btn btn-outline-info btn-sm">Learn More</a>
+                <a href="#" class="btn btn-sm btn-outline-danger"><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </section>
+          <!-- Bread 3 -->
+          <!-- section.nb-4.col-lg-4 -->
+          <section class="nb-4 col-lg-4">
+            <!-- Card 3 -->
+            <div class="card">
+              <img src="Images/sourdough.jpg" alt="Sourdough" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sourdough</h5>
+                <p class="card-text">Sourdough bread is made by the fermentation of dough using naturally occasions lactobacilli and yeast. It uses biological leavening</p>
+                <a href="https://en.wikipedia.org/wiki/Sourdough" class="btn btn-outline-info btn-sm">Learn More</a>
+                <a href="#" class="btn btn-sm btn-outline-danger"><i class="fa-regular fa-heart"></i></a>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <footer class="bg-secondary">
+      <div class="container">
+        <p class="lead n-0 p-4 text-center text-light">
+          Built using 
+          <a href="https://getbootstrap.com/" class="text-info">Bootstrap</a>
+        </p>
+      </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
